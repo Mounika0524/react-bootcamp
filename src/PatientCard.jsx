@@ -1,7 +1,7 @@
-function PatientCard(){
+function PatientCard({patient}){
     return (
         <div>
-            patients
+            {patient.name}
         </div>
     )
 }
